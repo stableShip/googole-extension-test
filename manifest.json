@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "googole-extension-test",
+  "version": "1.0",
+  "description": "googole-extension-test",
+  "permissions": [
+    "notifications"
+  ],
+  "background": {
+    "scripts": [
+      "node-schedule.js",
+      "background.js"
+    ]
+  }
+}
